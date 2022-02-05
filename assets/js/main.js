@@ -48,3 +48,11 @@ function scrollHeader() {
   else header.classList.remove("scroll-header");
 }
 window.addEventListener("scroll", scrollHeader);
+
+/*=============== NEW SWIPER ===============*/
+let newSwiper = new Swiper(".new-swiper", {
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: "true",
+  spaceBetween: 16,
+});
