@@ -375,3 +375,26 @@ button {
   align-items: center;
   column-gap: 0.5rem;
 }
+/*=============== CATEGORY ===============*/
+.category__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
+
+.category__data {
+  text-align: center;
+}
+
+.category__img {
+  width: 120px;
+  margin-bottom: var(--mb-0-75);
+  transition: 0.3s;
+}
+
+.category__title {
+  margin-bottom: var(--mb-0-25);
+}
+
+.category__data:hover .category__img {
+  transform: translateY(-0.5rem);
+}
