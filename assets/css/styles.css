@@ -402,3 +402,20 @@ button {
 .category__data:hover .category__img {
   transform: translateY(-0.5rem);
 }
+/*=============== ABOUT ===============*/
+.about__container {
+  row-gap: 2rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: var(--mb-2);
+}
+
+.about__img {
+  width: 200px;
+  justify-self: center;
+}
