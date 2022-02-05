@@ -580,3 +580,27 @@ button {
 .new__content:hover .new__button {
   right: 0;
 }
+/*=============== NEWSLETTER ===============*/
+.newsletter__description {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
+
+.newsletter__form {
+  background: var(--container-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.75rem;
+}
+
+.newsletter__input {
+  width: 70%;
+  padding: 0 0.5rem;
+  background: none;
+  color: var(--title-color);
+}
+
+.newsletter__input::placeholder {
+  color: var(--text-color);
+}
